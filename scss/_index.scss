@@ -1,0 +1,128 @@
+$font_xl: 32px;
+$font_nor: 24px;
+
+$darkred: #A00404;
+$darkblue: #415165;
+
+$mb_1: 8px;
+$mb_2: 16px;
+$mb_3: 24px;
+$mb_6: 48px;
+$mb_9: 72px;
+
+body{
+    font-size: $font_nor;
+    line-height: 36px;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 80px;
+    line-height: 106px;
+    border-bottom: 2px solid #000;
+    margin-bottom: $mb_6;
+}
+
+.photo{
+    margin-bottom: $mb_6;
+}
+
+.profile,.education{
+    margin-bottom: $mb_9;
+}
+
+.subTitle{
+    border-bottom: 2px solid #000;
+    font-size: $font_xl;
+    margin-bottom: $mb_2;
+    padding-bottom: $mb_1;
+    line-height: 45px;
+    display: block;
+    span{
+        font-size: $font_nor;
+        color: $darkred ;
+        margin-left: $mb_2;
+        font-weight: bold;
+    }
+}
+
+.pro_list{
+    margin-bottom: $mb_3;
+}
+
+.bgBlue{
+    background-color: $darkblue;
+    color: #fff;
+    padding-top: $mb_3;
+    padding-bottom: 36px;
+    .subTitle{
+        border-bottom: 2px solid #fff;
+        color: #fff;
+        margin-bottom: 36px;
+        padding-bottom: $mb_1;
+        text-align: center;
+    }
+    span{
+        color: #fff;
+    }
+}
+
+.skils{
+    max-width: 990px;
+    margin: auto;
+    ul{
+        margin: auto;
+        display: table;
+    }
+    li{
+        border-left: 1px solid #96A9C4;
+        display: block;
+        text-align: left;
+        padding-bottom: $mb_2;
+        padding-left: $mb_3;
+        &:last-child{
+            padding-bottom: 0px;
+        }
+    }
+}
+
+.work{
+    margin-top: $mb_9;
+    margin-bottom: $mb_9;
+    ul{
+        margin-left: $mb_3;
+    }
+    li{
+        border-left: 1px solid #96A9C4;
+        display: block;
+        text-align: left;
+        padding-bottom: $mb_3;
+        padding-left: $mb_3;
+        &:last-child{
+            padding-bottom: 0px;
+        }
+    }
+    p{
+        font-size: 20px;
+    }
+}
+
+.footer{
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+    li{
+        font-weight: 100;
+        margin-bottom: $mb_2;
+        &:last-child{
+            padding-bottom: 0px;
+        }
+    }
+    img{
+        margin: 0px 12px;
+    }
+}
